@@ -1,0 +1,13 @@
+---
+title: Top Shelf Data
+layout: default
+modal-id: 1
+date: 2014-07-18
+img: TopShelfData.png
+alt: Top Shelf Data
+project-date: November 2016 - Present
+business-type: SaaS, Analytics
+role: Founder
+technology: Python, Pandas, PostgreSQL, GIS, Sqlite, Redis, Graylog 
+description: Ingest and analyze Washington State i502 public records data (40Gb dump) to normalize, clean-up, and correlate information. Sell subscription access to reports.
+---

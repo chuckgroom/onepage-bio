@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 3
+title: Precision Polling
+date: 2014-07-16
+img: PrecisionPolling.png
+alt: Precision Polling
+project-date: 2010
+business-type: SaaS, IVR Polling, Customer Satisfaction
+role: Founder
+technology: Ruby on Rails, PostgreSQL, Twilio
+description: Built a self-service website for creating and running automated phone surveys (e.g. "Press 1 if you commute by bike..."). The cost is only 10 cents per call, with no setup fees. This made it the fastest, easiest, and cheapest way for politicians, non-profits, and companies to collect data. We offered advanced analytics, including weighting and cross-tabs. This company was acquired by SurveyMonkey.
+---

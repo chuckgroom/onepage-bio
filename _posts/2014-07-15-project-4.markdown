@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 4
+date: 2014-07-15
+title: BillMonk
+img: BillMonk.png
+alt: image-alt
+project-date: 2005
+role: Founder
+business-type: Consumer website
+technology: Ruby on Rails, PostgreSQL
+description: BillMonk tracks informal debts between friends, on the BillMonk.com website or via a mobile phone. It was wildly successful among the 20-something demographic, and was used in dozens of countries and currencies. The highly viral interactions grew the active user base to over 300k users with no marketing spend. This bootstrap startup was acquired by Obopay.
+---

@@ -1,0 +1,11 @@
+---
+layout: style
+---
+
+#about a,
+#about a:hover,
+#about a:focus,
+#about a:active,
+#about a.active {
+    color: #147667;
+}
