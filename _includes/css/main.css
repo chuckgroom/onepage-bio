@@ -36,13 +36,16 @@ h6 {
     font-weight: 700;
 }
 
-hr.star-light,
-hr.star-primary {
-    margin: 25px auto 30px;
+hr {
+    margin: 15px auto 25px;
     padding: 0;
     max-width: 250px;
     border: 0;
-    border-top: solid 5px;
+    border-top: solid 4px;
+}
+hr.star-light,
+hr.star-primary {
+    overflow: visible; /* For IE */
     text-align: center;
 }
 
@@ -54,7 +57,7 @@ hr.star-primary:after {
     top: -.8em;
     padding: 0 .25em;
     font-family: FontAwesome;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 hr.star-light {
@@ -86,8 +89,8 @@ header {
 }
 
 header .container {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 80px;
+    padding-bottom: 15px;
 }
 
 header img {
@@ -99,7 +102,7 @@ header .intro-text .name {
     display: block;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 2em;
+    font-size: 2.2em;
     font-weight: 700;
 }
 
@@ -110,16 +113,16 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 40px;
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 2.75em;
     }
 
     header .intro-text .skills {
-        font-size: 1.75em;
+        font-size: 1.5em;
     }
 }
 
@@ -171,12 +174,16 @@ header .intro-text .skills {
 }
 
 section {
-    padding: 100px 0;
+    padding: 65px 0;
 }
 
 section h2 {
     margin: 0;
-    font-size: 3em;
+    font-size: 2em;
+}
+
+section h3 {
+    font-size: 1.75em;
 }
 
 section.success {
@@ -186,11 +193,11 @@ section.success {
 
 @media(max-width:767px) {
     section {
-        padding: 75px 0;
+        padding: 50px 0;
     }
 
     section.first {
-        padding-top: 75px;
+        padding-top: 50px;
     }
 }
 

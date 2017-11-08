@@ -2,10 +2,19 @@
 layout: style
 ---
 
-#interests a,
-#interests a:hover,
-#interests a:focus,
-#interests a:active,
-#interests a.active {
+#projects a,
+#projects a:hover,
+#projects a:focus,
+#projects a:active,
+#projects a.active {
     color: #c5f8d1;
+}
+
+
+header img.img-responsive {
+    max-width: 240px;
+}
+
+header .intro-text .name {
+    font-size: 2.25em;
 }
