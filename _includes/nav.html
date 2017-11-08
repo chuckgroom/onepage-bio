@@ -10,6 +10,9 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand" href="#page-top">{{ site.title }}</a>
+                {% for network in site.social %}
+                <a href="{{ network.url }}" class="btn-social btn-outline"><i class="fa fa-fw fa-{{ network.title }}"></i></a>
+		{% endfor %}
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -19,10 +22,10 @@
                         <a href="#page-top"></a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#startups">Start-Ups</a>
+                        <a href="#bio">About Me</a>
                     </li>
                     <li class="page-scroll">
-                        <a href="#about">About</a>
+                        <a href="#interests">Interests</a>
                     </li>
                     <li class="page-scroll">
                         <a href="#contact">Contact</a>

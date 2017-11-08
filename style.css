@@ -2,10 +2,10 @@
 layout: style
 ---
 
-#about a,
-#about a:hover,
-#about a:focus,
-#about a:active,
-#about a.active {
-    color: #147667;
+#interests a,
+#interests a:hover,
+#interests a:focus,
+#interests a:active,
+#interests a.active {
+    color: #c5f8d1;
 }
