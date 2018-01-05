@@ -186,9 +186,8 @@ section h3 {
     font-size: 1.75em;
 }
 
-section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+section.tout {
+    background: #{{ site.color.section-tout }};
 }
 
 @media(max-width:767px) {
@@ -461,4 +460,14 @@ footer .footer-below {
 .modal.fade.in {
     transform: translateZ(0);
     -webkit-transform: translateZ(0);
+}
+
+header img.profile-image {
+    max-width: 240px;
+    border-radius: 50%;
+    border: 0.4em solid rgba(255, 255, 255, 0.75);
+}
+
+header .intro-text .name {
+    font-size: 2.25em;
 }
