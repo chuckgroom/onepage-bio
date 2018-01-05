@@ -462,7 +462,7 @@ footer .footer-below {
     -webkit-transform: translateZ(0);
 }
 
-header img.profile-image {
+header img.profile-img {
     max-width: 240px;
     border-radius: 50%;
     border: 0.4em solid rgba(255, 255, 255, 0.75);
