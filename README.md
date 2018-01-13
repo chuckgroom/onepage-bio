@@ -1,9 +1,15 @@
-Freelancer Jekyll theme  [![Build Status](https://api.travis-ci.org/jeromelachaud/freelancer-theme.svg?branch=master)](https://travis-ci.org/jeromelachaud/freelancer-theme/) 
-=========================
+This is an example one-pager site that prospective job-seekers can use to quickly
+highlight their accomplishments and make an introduction. It can be hosted for free using
+GitHub Pages (as a Jekyll page).
 
-Jekyll theme based on [Freelancer bootstrap theme ](http://startbootstrap.com/template-overviews/freelancer/)
+This is based on a heavily pared-down version Jerome Lachaud's [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme),
+which is well-suited for designers to easily assemble a portfolio site.
+
+## Demo
+View an example one-pager [here](http://chuckgroom.com/onepage-bio/)
 
 ## How to use
+
  - Place a image in `/img/portfolio/`
  - Replace `your-email@domain.com` in `_config.yml` with your email address. Refer to [formspree](http://formspree.io/) for more information.
  - Create posts to display your projects. Use the follow as an example:
@@ -22,11 +28,9 @@ description: The description of the project
 ---
 ```
 
-## Demo
-View this jekyll theme in action [here](https://jeromelachaud.github.io/freelancer-theme)
-
 ## Screenshot
 ![screenshot](https://raw.githubusercontent.com/jeromelachaud/freelancer-theme/master/screenshot.png)
 
----------
-For more details, read the [documentation](http://jekyllrb.com/)
+## Jekyll
+
+For more details on Jekyll, read the [documentation](http://jekyllrb.com/).

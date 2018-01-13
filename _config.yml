@@ -3,9 +3,8 @@ name: Edwin E. Exemplar
 email: edwin+contactme@someemail.com
 #canonical_url: https://edwinexemplar.com
 keywords: "Software Engineer, Python, Ruby, Machine Learning, Deep Learning, Startups, Agile, Pair Programming"
-skills: "Principal Software Engineer in Durham, NC"
-meta_author: Examplar Edwin
-baseurl: 
+skills: "Senior Software Engineer in Seattle, WA (Fictitious)"
+baseurl:
 
 # Google webmaster tools
 google_verify:
@@ -21,20 +20,6 @@ color:
   secondary-dark: 29455b
   section-tout: eaf1f1
 
-# Footer settings
-footer:
-  copyright: Chuck Groom
-  location:
-  social: Around the Web
-  credits:
-
-# Postal address (add as many lines as necessary)
-address:
-  - line:
-
-# Credits content
-credits: ''
-
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # You should replace these with your social networks, of course. :)
 social:
@@ -44,7 +29,6 @@ social:
     url: https://medium.com/@cgroom
   - title: twitter
     url: https://twitter.com/chuck_groom
-    # e.g. https://twitter.com/chuck_groom
 
 # Build settings
 markdown: kramdown
