@@ -6,6 +6,16 @@ keywords: "Software Engineer, Python, Ruby, Machine Learning, Deep Learning, Sta
 skills: "Senior Software Engineer in Seattle, WA (Fictitious)"
 baseurl:
 
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+# You should replace these with your social networks, of course. :)
+social:
+  - title: linkedin
+    url: https://www.linkedin.com/in/cgroom/
+  - title: medium
+    url: https://medium.com/@cgroom
+  - title: twitter
+    url: https://twitter.com/chuck_groom
+    
 # Google webmaster tools
 google_verify:
 
@@ -20,15 +30,7 @@ color:
   secondary-dark: 29455b
   section-tout: eaf1f1
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-# You should replace these with your social networks, of course. :)
-social:
-  - title: linkedin
-    url: https://www.linkedin.com/in/cgroom/
-  - title: medium
-    url: https://medium.com/@cgroom
-  - title: twitter
-    url: https://twitter.com/chuck_groom
+
 
 # Build settings
 markdown: kramdown
