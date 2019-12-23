@@ -1,20 +1,20 @@
 # Site settings
-name: Edwin E. Exemplar
-email: edwin+contactme@someemail.com
+name: Roshan Ramkeesoon
+email: rramkeesoon93@gmail.com
 #canonical_url: https://edwinexemplar.com
-keywords: "Software Engineer, Python, Ruby, Machine Learning, Deep Learning, Startups, Agile, Pair Programming"
-skills: "Senior Software Engineer in Seattle, WA (Fictitious)"
+keywords: "Software Engineer, Machine Learning Engineer, TensorFlow, PyTorch, Python, Machine Learning, Deep Learning, Federated Learning"
+skills: "Data Scientist in Seattle, WA"
 baseurl:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 # You should replace these with your social networks, of course. :)
 social:
+  - title: github
+    url: https://github.com/r-o-s-h-a-n
   - title: linkedin
-    url: https://www.linkedin.com/in/cgroom/
+    url: https://www.linkedin.com/in/roshanr1/
   - title: medium
-    url: https://medium.com/@cgroom
-  - title: twitter
-    url: https://twitter.com/chuck_groom
+    url: https://medium.com/@rramkeesoon93
     
 # Google webmaster tools
 google_verify:
@@ -24,9 +24,9 @@ bing_verify:
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 2196F3
-  primary-rgb: "33, 150, 243"
-  secondary: 285172
+  primary: 0D3A5F
+  primary-rgb: "13, 58, 95"
+  secondary: 29455b
   secondary-dark: 29455b
   section-tout: eaf1f1
 
