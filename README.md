@@ -10,6 +10,24 @@ is a prose-centric version tailored to software developers. [formspree](http://f
 
 View an example one-pager [here](http://chuckgroom.com/onepage-bio/)
 
+## Installation
+
+On your command line do:
+```sh
+git clone https://github.com/chuckgroom/onepage-bio.git
+cd onepage-bio
+
+# As mentioned in the main page of http://jekyllrb.com/
+gem install bundler jekyll
+
+# You may not need the following command
+bundle update --bundler
+
+# Following command builds the code and runs the local server
+bundle exec jekyll serve
+```
+See [Jekyll below for details.](#Jekyll)
+
 ## How to use
 
  - Place your photo in `/img/profile.png`
