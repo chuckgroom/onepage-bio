@@ -28,6 +28,17 @@ bundle exec jekyll serve
 ```
 See [Jekyll below for details.](#Jekyll)
 
+## Using Docker
+
+As alternative you can use docker to serve the page.
+Use the following command to spin up the container using docker-compose.
+The -d parameter is to run the container in the background.
+``` sh
+docker-compose up -d
+
+# To rebuild the page use this command
+docker-compose exec web jekyll b
+```
 ## How to use
 
  - Place your photo in `/img/profile.png`

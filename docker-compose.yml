@@ -1,0 +1,11 @@
+version: "3.3"
+services:
+  web:
+    build: .
+    ports:
+      - "4000:4000"
+    volumes:
+      - ./img/:/src/jekyll/img/:ro
+      - ./_config.yml:/src/jekyll/config.yml:ro
+      - ./_includes/about_me.html:/src/jekyll/_includes/about_me.html:ro
+      - ./_includes/interests.html:/src/jekyll/_includes/interests.html:ro
