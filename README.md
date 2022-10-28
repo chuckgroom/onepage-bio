@@ -1,6 +1,6 @@
 This is an example one-pager site that prospective job-seekers can use to quickly
 highlight their accomplishments and make an introduction. It can be hosted for free using
-GitHub Pages (as a Jekyll page).
+GitHub Pages (as a Jekyll page), or via Netlify (also free; preferred).
 
 This is based on a heavily pared-down version Jerome Lachaud's [Freelancer Jekyll theme](https://github.com/jeromelachaud/freelancer-theme).
 Jerome's original theme is well-suited for designers to easily assemble a portfolio site of their visual work; this
@@ -8,7 +8,7 @@ is a prose-centric version tailored to software developers. [formspree](http://f
 
 ## Demo
 
-View an example one-pager [here](http://chuckgroom.com/onepage-bio/)
+View an example one-pager [here](https://sage-lebkuchen-d5be31.netlify.app/)
 
 ## Installation
 
@@ -53,3 +53,10 @@ docker-compose exec web jekyll b
 ## Jekyll
 
 For more details on Jekyll, read the [documentation](http://jekyllrb.com/).
+
+## Hosting / Deploying
+
+You can host this page in a variety of ways. In my original blog post, I suggested using Github Pages. However, I've found the 
+Github Pages product hasn't evolved over time, and it was a real pain to support SSL on URLs without www (e.g. 
+www.chuckgroom.com and chuckgroom.com). I'd now recommend using Netlify; just point at the Github repo and it'll set up hosting
+immediately. I've since moved over the demo link above to point to a Netlify site. 
